@@ -126,6 +126,16 @@ footer{
     padding: 1%;
     color: gray;
 }
+.top-right h2{
+    line-height: 30%;
+    
+}
+.bonus-one{
+    display: flex;
+}
+.bonus-one h2{
+    color: black;
+}
 @media only screen and (max-width:688px){
     .middle-top{
         flex-direction: column;
@@ -159,5 +169,19 @@ footer{
     }
    .nav a{
        visibility: hidden;
+   }
+   .bonus-one{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+
+   }
+   .bonus-one iframe{
+       width: 90%;
+   }
+   .bonus-one h2{
+       font-size: 30px;
+       text-align: center;
    }
 }
