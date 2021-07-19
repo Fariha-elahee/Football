@@ -136,6 +136,34 @@ footer{
 .bonus-one h2{
     color: black;
 }
+.bonus-two{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.bonus-two h2{
+    color: chocolate;
+}
+.bonus-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bonus-form input,
+button {
+    font-size: 30px;
+    margin-top: 5%;
+    border: 1px solid black;
+    padding-left: 3%;
+    border-radius: 20px;
+}
+.bonus-form button {
+    background-color: chocolate;
+    color: white;
+    font-weight: 900;
+    border: 0;
+}
 @media only screen and (max-width:688px){
     .middle-top{
         flex-direction: column;
@@ -181,7 +209,11 @@ footer{
        width: 90%;
    }
    .bonus-one h2{
-       font-size: 30px;
+       font-size: 20px;
+       text-align: center;
+   }
+   .bonus-two h2{
+       font-size: 20px;
        text-align: center;
    }
 }
