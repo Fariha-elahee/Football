@@ -25,10 +25,12 @@ h2{
     padding-left: 5%;
     padding-right: 5%;
    padding-top: 3%;
+   overflow: hidden;
 }
 .top-right img{
     width: 100%;
     height: auto;
+    
 }
 .top{
     background-color: #2D25A0;
@@ -164,6 +166,11 @@ button {
     font-weight: 900;
     border: 0;
 }
+.middle-top .top-right:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+    
+}
 @media only screen and (max-width:688px){
     .middle-top{
         flex-direction: column;
@@ -215,5 +222,9 @@ button {
    .bonus-two h2{
        font-size: 20px;
        text-align: center;
+   }
+   .bonus-two{
+       width: 80%;
+       align-items: center;
    }
 }
